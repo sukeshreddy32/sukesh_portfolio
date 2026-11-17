@@ -18,6 +18,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://www.linkedin.com/in/jangasukesh/",
   portfolioUrl: "https://question-paper-hub.vercel.app/",
   portraitUrl: "/assets/sukesh_portrait.jpg",
+  cutoutUrl: "/assets/sukesh_cutout.png",
   resumeOriginalUrl: "/assets/sukesh_resume_original.jpg",
   yearEstablished: "2036 DIGITAL NEXUS",
   languages: [

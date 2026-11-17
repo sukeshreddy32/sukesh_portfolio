@@ -99,14 +99,14 @@ export const DigitalIDCardModal: React.FC<DigitalIDCardModalProps> = ({ isOpen, 
 
               {/* Card Center: Portrait & Identity Details */}
               <div className="flex items-center gap-4 py-1">
-                {/* Micro Portrait */}
-                <div className="relative w-20 h-24 rounded-lg overflow-hidden border border-cyan-400/60 shrink-0 bg-slate-950">
+                {/* Micro Hologram Avatar */}
+                <div className="relative w-20 h-24 rounded-lg overflow-hidden border border-cyan-400/60 shrink-0 bg-gradient-to-b from-cyan-950/80 to-slate-950 flex items-center justify-center">
                   <img
-                    src={PERSONAL_INFO.portraitUrl}
+                    src={PERSONAL_INFO.cutoutUrl || PERSONAL_INFO.portraitUrl}
                     alt="Sukesh"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(0,242,254,0.4)]"
                   />
-                  <div className="absolute inset-0 scanline opacity-20" />
+                  <div className="absolute inset-0 scanline opacity-30" />
                 </div>
 
                 {/* Name & Academic Rank */}

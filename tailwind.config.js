@@ -23,6 +23,7 @@ export default {
         }
       },
       fontFamily: {
+        serif: ['"Instrument Serif"', '"Playfair Display"', 'Georgia', 'serif'],
         mono: ['"JetBrains Mono"', '"Space Mono"', 'ui-monospace', 'monospace'],
         display: ['"Space Grotesk"', '"Syne"', 'sans-serif'],
         sans: ['"Inter"', 'system-ui', 'sans-serif']
